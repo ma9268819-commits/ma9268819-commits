@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';import{queryFor,safeRepo,escapeHTML,canCompare,translateSearch}from'../dist/core.mjs';
+test('all-time does not claim a trending window',()=>{assert.equal(queryFor({}),'archived:false stars:>1000')});
+test('creation range is computed relative to current date',()=>{assert.equal(queryFor({category:'ai',period:'7',search:''},new Date('2026-10-18T07:00:00Z')),'archived:false topic:artificial-intelligence created:>=2026-10-11 stars:>10')});
+test('Arabic common search terms map to useful GitHub terms',()=>{assert.equal(translateSearch('ذكاء اصطناعي'),'artificial intelligence');assert.equal(translateSearch('react'),'react')});
+test('untrusted repository data cannot produce external or script links',()=>{assert.equal(safeRepo({id:1,full_name:'javascript:alert(1)'}),null);assert.equal(safeRepo({id:1,full_name:'user/repo',html_url:'javascript:alert(1)',owner:{avatar_url:'javascript:alert(1)'}}).html_url,'https://github.com/user/repo');assert.equal(safeRepo({id:1,full_name:'user/repo',owner:{avatar_url:'https://evil.test/img'}}).owner.avatar_url,'')});
+test('repo descriptions are escaped for rendering',()=>{assert.equal(escapeHTML('<img onerror="x">'), '&lt;img onerror=&quot;x&quot;&gt;')});
+test('comparison limit does not block removing an existing choice',()=>{assert.equal(canCompare([1,2,3],4),false);assert.equal(canCompare([1,2,3],2),true)});
