@@ -1,0 +1,4 @@
+dist/
+worker/index.js
+.sites-runtime/
+node_modules/

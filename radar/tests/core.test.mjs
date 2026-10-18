@@ -1,4 +1,4 @@
-import test from 'node:test';import assert from 'node:assert/strict';import{queryFor,safeRepo,escapeHTML,canCompare,translateSearch}from'../dist/core.mjs';
+import test from 'node:test';import assert from 'node:assert/strict';import{queryFor,safeRepo,escapeHTML,canCompare,translateSearch}from'../web/core.mjs';
 test('all-time does not claim a trending window',()=>{assert.equal(queryFor({}),'archived:false stars:>1000')});
 test('creation range is computed relative to current date',()=>{assert.equal(queryFor({category:'ai',period:'7',search:''},new Date('2026-10-18T07:00:00Z')),'archived:false topic:artificial-intelligence created:>=2026-10-11 stars:>10')});
 test('Arabic common search terms map to useful GitHub terms',()=>{assert.equal(translateSearch('ذكاء اصطناعي'),'artificial intelligence');assert.equal(translateSearch('react'),'react')});
