@@ -6,6 +6,12 @@
 ### اكتشف · افهم · جرّب · استفد
 **مشاريع مفيدة وقرارات واضحة — بالعربي**
 
+## [🟢 افتح رادار — واجهتي العربية التفاعلية](https://githunt-arabic-ma9268819.sunnybear9.chatgpt.site)
+
+كروت مشاريع · بحث وفلاتر · مقارنة · مفضلة محلية · تحديث بيانات كل ٥ دقائق أثناء فتح الصفحة.
+
+الموقع خاص بصاحب الحساب ويتطلب الدخول بالحساب المصرّح له. [كود الموقع وتفاصيله](https://github.com/ma9268819-commits/ma9268819-commits/tree/main/radar)
+
 [⭐ الأكثر نجومًا](https://github.com/search?q=stars%3A%3E10000&type=repositories&s=stars&o=desc) &nbsp; | &nbsp; [🔥 الرائج اليوم](https://github.com/trending?since=daily) &nbsp; | &nbsp; [🧭 ابدأ هنا](https://github.com/ma9268819-commits/ma9268819-commits/blob/main/guides/START-HERE.md)
 
 </div>
