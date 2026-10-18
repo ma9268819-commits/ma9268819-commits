@@ -1,35 +1,110 @@
 <div dir="rtl">
 
-# 🚀 بوابتي إلى GitHub
+<div align="center">
 
-### مشاريع مفيدة • اختصارات واضحة • شرح بالعربي
+# 🚀 بوابتي إلى عالم GitHub
+### اكتشف · افهم · جرّب · استفد
+**مشاريع مفيدة وقرارات واضحة — بالعربي**
 
-أستكشف المشاريع مفتوحة المصدر والأدوات المفيدة، وأتعلم استخدامها خطوة بخطوة.
+[⭐ الأكثر نجومًا](https://github.com/search?q=stars%3A%3E10000&type=repositories&s=stars&o=desc) &nbsp; | &nbsp; [🔥 الرائج اليوم](https://github.com/trending?since=daily) &nbsp; | &nbsp; [🧭 ابدأ هنا](https://github.com/ma9268819-commits/ma9268819-commits/blob/main/guides/START-HERE.md)
 
-**ابدأ من هنا: [⭐ اعرض المشاريع الأعلى نجومًا](https://github.com/search?q=stars%3A%3E10000&type=repositories&s=stars&o=desc)**
+</div>
 
-## ⭐ اكتشف المشاريع الأعلى نجومًا
+---
 
-| المجال | افتح القائمة |
+## 🎯 ماذا تريد أن تفعل؟
+
+| هدفك | طريقك المختصر |
 | --- | --- |
-| جميع المجالات | [المشاريع الأكثر نجومًا](https://github.com/search?q=stars%3A%3E10000&type=repositories&s=stars&o=desc) |
-| الذكاء الاصطناعي | [أدوات الذكاء الاصطناعي](https://github.com/search?q=topic%3Aartificial-intelligence+stars%3A%3E1000&type=repositories&s=stars&o=desc) |
-| أدوات الإنتاجية | [تنظيم العمل وتوفير الوقت](https://github.com/search?q=topic%3Aproductivity+stars%3A%3E1000&type=repositories&s=stars&o=desc) |
-| الأتمتة | [تنفيذ المهام المتكررة](https://github.com/search?q=topic%3Aautomation+stars%3A%3E1000&type=repositories&s=stars&o=desc) |
-| تطبيقات أندرويد | [مشاريع أندرويد](https://github.com/search?q=topic%3Aandroid+stars%3A%3E1000&type=repositories&s=stars&o=desc) |
+| أكتشف المشاريع الأشهر | [⭐ أكثر من ١٠ آلاف نجمة، من الأعلى للأقل](https://github.com/search?q=stars%3A%3E10000&type=repositories&s=stars&o=desc) |
+| أتابع الرائج الآن | [اليوم](https://github.com/trending?since=daily) · [هذا الأسبوع](https://github.com/trending?since=weekly) · [هذا الشهر](https://github.com/trending?since=monthly) |
+| أتعلم استخدام GitHub | [🧭 دليل البداية بالعربي](https://github.com/ma9268819-commits/ma9268819-commits/blob/main/guides/START-HERE.md) |
+| أرجع لمشاريعي المحفوظة | [📌 المفضلة](https://github.com/ma9268819-commits?tab=stars) |
+| أرتب ما أريد تجربته | [📝 سجل مشاريعي ونتائج التجربة](https://github.com/ma9268819-commits/ma9268819-commits/blob/main/guides/MY-PROJECTS.md) |
+| أرى الأشخاص الذين أتابعهم | [👥 قائمة المتابعة](https://github.com/ma9268819-commits?tab=following) |
 
-## 📌 اختصاراتي
+**الأكثر نجومًا** يعرض الشعبية الإجمالية؛ **Trending** يعرض اختيارات GitHub الرائجة خلال الفترة، وليس نفس الترتيب.
 
-[⭐ مشاريعي المحفوظة](https://github.com/ma9268819-commits?tab=stars) · [👥 الأشخاص الذين أتابعهم](https://github.com/ma9268819-commits?tab=following)
+## 🧰 مشاريع تستحق الاستكشاف
 
-## دليل سريع
+أمثلة لفوائد مختلفة؛ ليست ترتيبًا لأفضل المشاريع أو ضمانًا لملاءمتها لكل جهاز.
 
-- **Star ⭐:** حفظ المشروع في المفضلة.
-- **Follow:** متابعة صاحب المشروع من بروفايله.
-- **README:** شرح المشروع وطريقة تشغيله.
-- **Issues:** المشاكل والمناقشات المتعلقة بالمشروع.
-- **Releases:** الإصدارات المنشورة؛ توفر تنزيل جاهز يعتمد على المشروع.
+### 📲 LocalSend — نقل الملفات بين أجهزتك
+نقل ملفات ورسائل بين أجهزة قريبة عبر الشبكة المحلية، دون الاعتماد على اتصال بالإنترنت. له تطبيقات لعدة أنظمة، ومنها أندرويد.
 
-الروابط تفتح نتائج GitHub الحالية، ولا تتطلب تحديث هذه الصفحة يدويًا. النجوم مؤشر للشعبية، وليست ضمانًا للجودة أو الأمان. لقراءة الصفحات بالعربية، استخدم ترجمة المتصفح.
+**بداية مقترحة للمبتدئ:** راجع روابط التنزيل الرسمية في شرح المشروع.
+
+[افتح المشروع](https://github.com/localsend/localsend) · [خيارات التنزيل الرسمية](https://localsend.org/download)
+
+### 📄 Stirling PDF — أدوات للتعامل مع PDF
+مشروع لمعالجة ملفات PDF وتحريرها. راجع طرق التشغيل الحالية واختر ما يناسب جهازك قبل التثبيت.
+
+[افتح المشروع وتعليماته](https://github.com/Stirling-Tools/Stirling-PDF)
+
+### 🤖 Ollama — تشغيل نماذج ذكاء اصطناعي
+أداة لتشغيل نماذج لغوية، ومنها التشغيل محليًا. اختيار النموذج يعتمد على الذاكرة وإمكانات الجهاز؛ يحتاج إعدادًا، وليس كل نموذج مناسبًا لكل جهاز.
+
+[افتح المشروع وتعليماته](https://github.com/ollama/ollama)
+
+### ⚙️ n8n — ربط الأدوات وأتمتة المهام
+بناء سير عمل يربط خدمات مختلفة. راجع الترخيص وخيارات الاستضافة والتكلفة، وإعداد الحسابات المطلوبة قبل التجربة.
+
+[افتح المشروع وتعليماته](https://github.com/n8n-io/n8n)
+
+<details>
+<summary><b>🔎 اكتشف المزيد حسب المجال — اضغط للفتح</b></summary>
+
+| المجال | مشاريع مرتبة حسب النجوم |
+| --- | --- |
+| 🤖 الذكاء الاصطناعي | [اكتشف المشاريع](https://github.com/search?q=topic%3Aartificial-intelligence+stars%3A%3E1000&type=repositories&s=stars&o=desc) |
+| ⚙️ الأتمتة | [اكتشف المشاريع](https://github.com/search?q=topic%3Aautomation+stars%3A%3E1000&type=repositories&s=stars&o=desc) |
+| 📱 أندرويد | [اكتشف المشاريع](https://github.com/search?q=topic%3Aandroid+stars%3A%3E1000&type=repositories&s=stars&o=desc) |
+| ✅ الإنتاجية | [اكتشف المشاريع](https://github.com/search?q=topic%3Aproductivity+stars%3A%3E1000&type=repositories&s=stars&o=desc) |
+| 📄 PDF | [اكتشف المشاريع](https://github.com/search?q=topic%3Apdf+stars%3A%3E1000&type=repositories&s=stars&o=desc) |
+| 🏠 الاستضافة الذاتية | [اكتشف المشاريع](https://github.com/search?q=topic%3Aself-hosted+stars%3A%3E1000&type=repositories&s=stars&o=desc) |
+
+هذه النتائج تعتمد على تصنيفات أصحاب المشاريع، وقد لا تشمل كل مشروع مناسب للمجال.
+
+</details>
+
+## 💬 استخدم ChatGPT كشريك تنفيذ
+
+**اختر مشروعًا واحدًا، وابعت رابطه مع هدفك وجهازك.** يمكنك استخدام أحد الطلبات التالية:
+
+> **افهمه لي:** اشرح المشروع بالعربي البسيط، وفائدته العملية، وطريقة تشغيله، وتكلفته، وهل يناسب جهازي: …
+
+> **قارنه لي:** قارن هذين المشروعين لإنجاز المهمة التالية: … ثم وضح الأنسب لخبرتي وجهازي وميزانيتي.
+
+> **شغّله معي:** راجع تعليماته، وساعدني في تشغيله خطوة خطوة على: … ووضح أي خطوة تحتاج تدخلًا مني.
+
+> **طوّره لي:** افهم المشروع الحالي ثم نفّذ الميزة التالية: … واختبر التغييرات حسب الأدوات والصلاحيات المتاحة.
+
+> **نظّم اختياري:** أضف رابط المشروع وغرض استخدامه وحالته إلى سجل مشاريعي في هذا المستودع.
+
+[📖 تفاصيل أكثر وأمثلة جاهزة](https://github.com/ma9268819-commits/ma9268819-commits/blob/main/guides/START-HERE.md)
+
+<details>
+<summary><b>📖 أهم الأزرار في دقيقة</b></summary>
+
+- **Star ⭐:** حفظ المشروع في مفضلة GitHub.
+- **Follow:** متابعة الشخص من بروفايله.
+- **README:** شرح المشروع وطريقة استخدامه.
+- **Releases:** الإصدارات المنشورة؛ قد تتوفر فيها تنزيلات جاهزة.
+- **Download ZIP:** تنزيل ملفات المصدر، وليس بالضرورة تطبيقًا جاهزًا.
+- **Fork:** نسخة من المستودع في حسابك.
+- **Issues:** مشاكل وأسئلة المشروع.
+- **Pull request:** اقتراح تعديلات للمراجعة.
+
+</details>
+
+---
+
+### 🔄 كيف تبقى الصفحة مفيدة؟
+
+**روابط البحث والترند** تعرض نتائج GitHub عند فتحها، وقد تتأخر الفهرسة. **الأوصاف والدليل وسجل التجارب** نصوص محفوظة تحتاج تعديلًا عند تغير المعلومات. لا يوجد تقرير يومي مجدول أو مزامنة تلقائية للمفضلة.
+
+آخر مراجعة للأوصاف: **١٨ أكتوبر ٢٠٢٦**، بالرجوع إلى مستودعات المشاريع المرتبطة أعلاه.
+
+للقراءة بالعربي، استخدم ترجمة المتصفح. النجوم مؤشر للشعبية، ولا تكفي وحدها للحكم على الجودة أو ملاءمة المشروع.
 
 </div>
