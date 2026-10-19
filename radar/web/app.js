@@ -1,3 +1,4 @@
+import {initLeaderboards} from './leaderboards.mjs';
 import {queryFor,safeRepo,formatCount,escapeHTML as e,canCompare} from './core.mjs';
 import {createTranslator,arabicLanguage,plainReadme,safePublicURL,safeAssetURL,sourceLanguage} from './translation.mjs';
 import {assessment,visibleFor,nextStep,missions,kindLabels,normalizeProfile,selectResults} from './decisions.mjs';
@@ -141,3 +142,5 @@ $('#clear-mission').onclick=()=>{clearMissionState();load()};
 $('#project-content').addEventListener('change',event=>{if(event.target.matches('[data-trial-step]')){const index=Number(event.target.dataset.trialStep);const id=detailRepo.id;let list=Array.isArray(trialProgress[id])?trialProgress[id]:[];list=event.target.checked?[...new Set([...list,index])]:list.filter(x=>x!==index);trialProgress[id]=list;write('radar-trials-v1',trialProgress);$('#trial-count').textContent=`${formatCount(list.length)} / ٣`}});
 $('#project-content').addEventListener('click',event=>{if(event.target.closest('[data-add-trial]')){saved[detailRepo.id]={repo:detailRepo,stage:'try'};write('radar-saved-v1',saved);render();toast('أُضيف إلى مكتبتك بحالة «سأجرّبه».')}});
 fillProfile();load();
+
+initLeaderboards({openProject,githubJSON,safeRepo});
